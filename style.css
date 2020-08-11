@@ -20,3 +20,12 @@ body {
   border-bottom: 1px solid #dddddd;
   background-color: rgba(0,0,0, 0.1);
 }
+h1 {
+  text-align: center;
+  font-family: Courier New;
+  font-weight: bold;
+}
+
+.description {
+  text-align: center;
+}
