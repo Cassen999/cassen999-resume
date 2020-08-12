@@ -15,15 +15,16 @@ body {
 }
 .name {
   text-align: left;
-  display: inline;
+  display: block;
+  display: inline-block;
 }
 h1 p {
   text-align: left;
   display: inline;
 }
 .portrait {
-  text-align: right;
   padding-top: 100px
+  float: right;
 }
 
 .exp-header {
