@@ -29,7 +29,7 @@ h1 p {
   padding-left: 50px;
   float: right;
   border-radius: 10px;
-  border: solid grey;
+  border: 3px solid #dddddd;
 }
 
 .exp-header {
