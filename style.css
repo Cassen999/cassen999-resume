@@ -17,10 +17,12 @@ h1 .name {
   text-align: left;
   display: block;
   display: inline-block;
+  float: left;
 }
 h1 p {
-  text-align: left;
+  text-align: center;
   display: inline;
+  float: left;
 }
 .portrait {
   padding-top: 100px
