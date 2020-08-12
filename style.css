@@ -14,7 +14,7 @@ body {
   height: auto;
 }
 .name {
-  text-align: center;
+  text-align: left;
   display: block;
   display: inline-block;
 }
