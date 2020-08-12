@@ -20,7 +20,7 @@ h1 p {
   display: inline;
 }
 .portrait {
-  float: end;
+  text-align: right;
 }
 
 .exp-header {
