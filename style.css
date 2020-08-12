@@ -13,7 +13,7 @@ body {
   width: 50%;
   height: auto;
 }
-.name {
+h1 .name {
   text-align: left;
   display: block;
   display: inline-block;
