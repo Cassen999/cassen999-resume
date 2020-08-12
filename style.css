@@ -1,9 +1,9 @@
 body {
   display: grid;
-  background-color: #444444;
   color: #dddddd;
   font-family: Arial, Helvetica, sans-serif;
   margin: 5% 10%;
+  background-image: url("https://scontent-msp1-1.xx.fbcdn.net/v/t1.0-9/117303013_10160156683174937_4065623423583343610_o.jpg?_nc_cat=111&_nc_sid=730e14&_nc_ohc=PoOQG6DrBccAX_MmEiI&_nc_ht=scontent-msp1-1.xx&oh=3f31cc8f26ff3d7182178afc89b99645&oe=5F5B1797");
 }  
 .image {
   float: right;
