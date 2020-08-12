@@ -12,6 +12,7 @@ body {
   float: right;
   width: 50%;
   height: auto;
+  margin: 50%;
 }
 h1 .name {
   text-align: left;
