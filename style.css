@@ -24,9 +24,11 @@ h1 p {
   text-align: center;
   display: inline;
   float: left;
+  padding-right: 50px;
 }
 .portrait {
   padding-top: 100px
+  padding-left: 50px;
   float: right;
 }
 
