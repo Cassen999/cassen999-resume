@@ -4,18 +4,17 @@ body {
   color: #dddddd;
   font-family: Arial, Helvetica, sans-serif;
   margin: 5% 10%;
-}
-.author {
-  text-align: left;
-}
-.description {
-  justify-content: left;
-}
-  
+}  
 .image {
   float: right;
   width: 50%;
   height: auto;
+}
+.name {
+  text-align: left;
+}
+h1 p {
+  text-align: left;
 }
 
 .exp-header {
