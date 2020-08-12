@@ -5,6 +5,7 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 5%;
+  margin-top: 5%;
   background-image: url("https://scontent-msp1-1.xx.fbcdn.net/v/t1.0-9/117303013_10160156683174937_4065623423583343610_o.jpg?_nc_cat=111&_nc_sid=730e14&_nc_ohc=PoOQG6DrBccAX_MmEiI&_nc_ht=scontent-msp1-1.xx&oh=3f31cc8f26ff3d7182178afc89b99645&oe=5F5B1797");
   background-size: cover;
 }  
@@ -12,12 +13,9 @@ body {
   float: right;
   width: 50%;
   height: auto;
-  margin: 50%;
 }
 h1 .name {
   text-align: left;
-  display: block;
-  display: inline-block;
   float: left;
 }
 h1 p {
@@ -26,10 +24,11 @@ h1 p {
   float: left;
   padding-right: 50px;
 }
-.portrait {
+.portrait img {
   padding-top: 100px
   padding-left: 50px;
   float: right;
+  border-radius: 10px;
 }
 
 .exp-header {
