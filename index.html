@@ -5,28 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cassen Gerber's Website</title>
   <link rel="stylesheet" href="./style.css"/>
+  <script src="jquery/jquery.min.js"></script>
+  <script src="client.js"></script>
 </head>
 <body>
-  <div class="flex-container">
-    <div style="order: 1" class='flex-left'>
-      <div class="headshot-img">
+  <div class="container">
+    <div class='left'>
         <img src="./headshot.jpg" alt="Cassen Gerber Headshot">
-      </div>
     </div>
-    <div style="order: 2;" class="flex-right">
-      <div class="text-side">
-        <h2>Hello</h1>
-          <div class="about-me">
-            <header id="name">Cassen Gerber</header>
-            <h2 class="what-i-do">What I Am Currently Doing</h2>
-              <p>Right now, I am finishing up my schooling to become a full
-                stack software engineer. I am passionate about making software
-                and web pages that work not only for the company or person(s) that
-                I am making it for, but also those that are interacting with the 
-                creation.
-              </p>
-        </div>
-      </div>
+    <div class="right">
+      <header id="name"> Hi, I'm Cassen</header>
+      <h2 class="summary">Who I am</h2>
+        <p>
+          This is where my summary will go
+        </p>
+      <h2 class="what-i-do">What I Do</h2>
+        <p>Right now, I am finishing up my schooling to become a full
+          stack software engineer. I am passionate about making software
+          and web pages that work not only for the company or person(s) that
+          I am making it for, but also those that are interacting with the 
+          creation.
+        </p>
+      <h2 class="links">See My Work</h2>
+        <input type="image" src="./GitHub-Mark.png" width="40" height="40" class="github">
+        <input type="image" src="./linkedin.png" width="40" height="40" class="linkedin">
     </div>
   </div>
 </body>
