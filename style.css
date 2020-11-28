@@ -1,51 +1,42 @@
-body {
-  color: #dddddd;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 10% 5%;
-  background-image: url("https://scontent-msp1-1.xx.fbcdn.net/v/t1.0-9/117303013_10160156683174937_4065623423583343610_o.jpg?_nc_cat=111&_nc_sid=730e14&_nc_ohc=PoOQG6DrBccAX_MmEiI&_nc_ht=scontent-msp1-1.xx&oh=3f31cc8f26ff3d7182178afc89b99645&oe=5F5B1797");
-  background-size: cover;
-}  
-.image {
-  float: right;
-  width: 100%;
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start
+}
+
+@media (max-width 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+.flex-left {
+  flex-basis: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.flex-right {
+  flex-basis: 100%;
+  background-image: url("./parchment.jpg");
+  margin-left: 0%;
+  margin-right: 0%;
+  flex-grow: ;
+}
+
+.headshot-img {
+  image: url("./headshot.jpg");
+  max-width: auto;
   height: auto;
-}
-h1 .name {
-  text-align: center;
-}
-h1 p {
-  text-align: center;
-  display: inline;
-  float: left;
-  padding-right: 50px;
-}
-.portrait img {
-  float: right;
-  border-radius: 10px;
-  border: 3px solid #dddddd;
+  object-fit: fill;
+  object-position: center;
 }
 
-.exp-header {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
+#name {
+  font-size: 35px;
 }
 
-.education {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
-}
-h1 {
-  text-align: center;
-  font-family: Courier New;
-  font-weight: bold;
-}
+.about-me {
 
-.description {
-  text-align: center;
 }
