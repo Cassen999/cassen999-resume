@@ -1,14 +1,11 @@
 body {
-  background-color: rgb(202, 187, 167);
+  background-color: rgb(138, 140, 77);
   margin: 1.5rem auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #name {
   font-size: 35px;
-}
-
-.linkedin {
-  size: 30%;
 }
 
 .container {
